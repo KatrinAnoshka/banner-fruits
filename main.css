@@ -1,0 +1,102 @@
+body {
+    margin:0;
+    padding:0;  
+    font-family: 'Arial', sans-serif;
+}
+div {
+    position:absolute;
+}
+#wrapper {
+    position: relative;
+    display:block;
+    top: 0;
+    left: 0;
+    width: 970px;
+    height: 250px;
+    overflow: hidden;
+    background: #f02e75 url(img/frame.jpg) no-repeat;
+}
+#wrect {
+    width: inherit;
+    height: inherit;
+    background: #f02e75;
+    background: linear-gradient(to right, #dd066b, #fe2b62, #fe522a);
+    pointer-events: none;
+}
+#bg {
+    width: inherit;
+    height: inherit;
+    background: #f02e75;
+    background: linear-gradient(#dd066b, #fe2b62, #fe522a);
+    pointer-events: none;
+}
+#bgexit {
+    width: inherit;
+    height: inherit;
+    cursor: pointer;
+}
+#border {
+    border: 1px solid #d9d7da;
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+    width: inherit;
+    height: inherit;
+    pointer-events: none;
+}
+
+/*************** Left-side ***************/
+
+#rasberry {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(../img/rasberry.png);
+    width: 115px;
+    height: 130px;
+    z-index: 2;
+}
+
+#lime {
+    top: 10%;
+    left: 50%;
+    background-image: url(../img/lime.png);
+    width: 100px;
+    height: 108px;
+    z-index: 1;
+}
+
+#mandarin {
+    top: 45%;
+    left: 38%;
+    background-image: url(../img/mandarin.png);
+    width: 110px;
+    height: 74px;
+    z-index: 3;
+}
+
+#round-1 {
+    top: 23%;
+    left: 39%;
+    background-image: url(../img/round-1.png);
+    width: 45px;
+    height: 46px;
+    z-index: 1;
+}
+
+#round-2 {
+    top: 12%;
+    left: 44%;
+    background-image: url(../img/round-2.png);
+    width: 30px;
+    height: 32px;
+    z-index: 1;
+}
+
+#round-3 {
+    top: 57%;
+    left: 56%;
+    background-image: url(../img/round-3.png);
+    width: 45px;
+    height: 44px;
+    z-index: 1;
+}
