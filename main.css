@@ -1,7 +1,6 @@
 body {
     margin:0;
     padding:0;  
-    font-family: 'Arial', sans-serif;
 }
 div {
     position:absolute;
@@ -21,13 +20,6 @@ div {
     height: inherit;
     background: #f02e75;
     background: linear-gradient(to right, #dd066b, #fe2b62, #fe522a);
-    pointer-events: none;
-}
-#bg {
-    width: inherit;
-    height: inherit;
-    background: #f02e75;
-    background: linear-gradient(#dd066b, #fe2b62, #fe522a);
     pointer-events: none;
 }
 #bgexit {
