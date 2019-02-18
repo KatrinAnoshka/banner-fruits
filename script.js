@@ -41,7 +41,7 @@
             .to(round2, duration,{rotation:-15, 'webkitFilter': 'blur(0)', y:"-=25", x:"-=80", ease: Power1.easeInOut}, "fr1")
             .to(round3, duration,{rotation:35, 'webkitFilter': 'blur(0)', y:"-=35", x:"+=55", ease: Power1.easeInOut}, "fr1")
 
-            .addLabel("fr2", "4.5")
+            .addLabel("fr2", "+=0.5")
 
             .to(rasberry, duration,{rotation:10, zIndex:3, y:"+=15", x:"0", ease: Power1.easeInOut}, "fr2")
             .to(lime, duration,{rotation:-10, zIndex:6, y:"+=15", x:"-=122", ease: Power1.easeInOut}, "fr2")
